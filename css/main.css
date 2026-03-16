@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+.wrap{
+    width: auto;
+}
+header{
+    background-color: #d6c0ff;
+}
+.header-top{
+    justify-content: space-between;
+    display: flex;
+}
+.top-right ul{
+    display: flex;
+    /* background-color: #0f398f; */
+}
+.manu ul{
+    display: flex;
+}
+.kategorie ul{
+    display: flex;
+}
