@@ -21,7 +21,9 @@ a{
 }
 /* 상단 */
 header{
-    /* background-color: #d6c0ff; */
+    border-bottom: 1px solid #ddd;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
 }
 .header-top{
     justify-content: space-between;
@@ -50,9 +52,12 @@ header{
     display: flex;
 }
 .manu ul li{
-    font-size: 32px;
+    font-size: 40px;
     font-weight: bold;
     padding: 20px;
+}
+.manu ul li a:hover{
+    text-decoration: underline;
 }
 /* 상단 카테고리 */
 .kategorie ul{
@@ -62,6 +67,9 @@ header{
     font-size: 16px;
     font-weight: bold;
     padding: 20px;
+}
+.kategorie ul li a:hover{
+    text-decoration: underline;
 }
 /* 메인 */
 main .inner{
@@ -77,10 +85,15 @@ main .inner{
     /* background-color: rgb(173, 173, 255); */
 }
 .side-bar p{
+    border-bottom: 3px solid #333;
+    /* margin-bottom: 40px; */
+    /* padding-bottom: 20px; */
+    font-size: 24px;
     font-weight: bold;
+    padding: 20px;
 }
 .side-bar ul li{
-    padding: 10px;
+    padding: 20px;
 }   
 .side-bar ul li a{
     color: #7a7a7a;
@@ -88,10 +101,11 @@ main .inner{
 .side-bar ul li a:hover{
     color: #111;
     cursor: pointer;
+    text-decoration: underline;
 }
 .main-right{
-     /* width: 900px; */
-     width: 85%;
+    padding-top: 50px;
+    width: 85%;
      /* background-color: chartreuse; */
 }
 /* 메인 카테고리 */
@@ -158,4 +172,21 @@ main .inner{
     border: #dddddd solid 1px;
     border-radius: 1px;
     background-color: #ebebeb;
+}
+/* 하단 */
+.footer{
+    border-top: 1px solid #ddd;
+    margin-top: 40px;
+    padding-top: 20px;
+}
+.footer .inner{
+    display: flex;
+}
+.footer .text{
+    font-size: 12px;
+    padding: 20px;
+}
+.footer .icon{
+    padding: 20px;
+    display: flex;
 }
