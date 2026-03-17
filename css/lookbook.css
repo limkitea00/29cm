@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}}
+.inner{
+    width: 1480px;
+    margin: auto;
+}
+/* 상단 */
+header{
+    border-bottom: 1px solid #ddd;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+}
+.header-top{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.top-right ul{
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+    /* background-color: #0f398f; */
+}
+.top-right ul li{
+    font-size: 14px;
+}
+.top-right ul li a i{
+    padding-right: 15px;
+}
+/* 로고 */
+.logo{
+    padding: 20px;
+    font-size: 28px;
+}
+/* 상단 메뉴 */
+.manu ul{
+    display: flex;
+}
+.manu ul li{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+}
+.manu ul li a:hover{
+    text-decoration: underline;
+}
+/* 상단 카테고리 */
+.kategorie ul{
+    display: flex;
+}
+.kategorie ul li{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px;
+}
+.kategorie ul li a:hover{
+    text-decoration: underline;
+}
+/* 메인 */
+.lookbook-wrap{
+    width: 1480px;
+}
+.lookbook-wrap .inner{
+    display: flex;
+}
+/* 하단 */
+.footer{
+    border-top: 1px solid #ddd;
+    margin-top: 40px;
+    padding-top: 20px;
+}
+.footer .inner{
+    display: flex;
+}
+.footer .text{
+    font-size: 12px;
+    padding: 20px;
+}
+.footer .icon{
+    padding: 20px;
+    display: flex;
+}
