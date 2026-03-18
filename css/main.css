@@ -51,6 +51,15 @@ header{
 .manu ul{
     display: flex;
 }
+.manu ul i{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 47px;
+}
 .manu ul li{
     font-size: 40px;
     font-weight: bold;
@@ -64,12 +73,25 @@ header{
     display: flex;
 }
 .kategorie ul li{
+    position: relative;
     font-size: 16px;
     font-weight: bold;
     padding: 20px;
 }
 .kategorie ul li a:hover{
     text-decoration: underline;
+}
+.kategorie ul li:last-child a::before{
+    position: absolute;
+    content: "";
+    height: 22px;
+    width: 1px;
+    background-color: #bdbdbd;
+    left: 0;
+    /* top: 6px; */
+}
+.kategorie ul li:last-child{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 /* 메인 */
 main .inner{
@@ -134,7 +156,7 @@ main .inner{
     position: absolute;
     top: 2px;
     right: -11px;
-    content: "";
+    content: "";    
     /* display: inline-block; */
     width: 1px;
     height: 20px;
