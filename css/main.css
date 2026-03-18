@@ -71,6 +71,7 @@ header{
 /* 상단 카테고리 */
 .kategorie ul{
     display: flex;
+    align-items: center;
 }
 .kategorie ul li{
     position: relative;
